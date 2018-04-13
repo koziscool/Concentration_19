@@ -1,0 +1,24 @@
+
+
+.game-info-container{
+  background-color: gray;
+  color: #DDD;
+  height: 80px;
+  margin: 0 0 10px 0;
+  display: block;
+}
+
+.section{
+  width: 25%;
+  text-align: center;
+  float: left;
+  top: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.section div{
+  font-weight: bold;
+  color: white;
+  display: inline;
+}
