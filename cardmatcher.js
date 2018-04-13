@@ -1,12 +1,4 @@
 
-matcherController = {
-
-  init: function( size ) {
-    console.log("koz");
-  },
-    
-
-};
 
 
 $(document).ready( function() {
@@ -15,7 +7,9 @@ $(document).ready( function() {
     e.preventDefault();
     var size = $("#grid-size").val();
     matcherController.init(size);
+    matcherView.updateGameState();
     $("#grid-size-form").hide();
+
   })
 });
   
